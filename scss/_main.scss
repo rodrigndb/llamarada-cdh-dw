@@ -1,8 +1,102 @@
-.nuevaClase{
-    background: black;
+*{
+    margin: 0px;
+    padding:0px,
 }
-.nuevaclase{
-    background: yellow;
+.bg-black{
+    background-color: $colorNegro !important;
 }
-#otraparaprobar{
-background: gray;}
+.bg-naranja{
+    background-color: $colorPrimario !important;
+}
+.navbar-brand{
+    margin: 15px;
+}
+.logoLlamarada{
+    background-image: url('../img/logoLlamarada.svg');
+    background-repeat: no-repeat;
+    display: block;
+        width: 400px;
+        height: 100%;
+        padding: 1rem;
+}
+.active{
+    color: $colorPrimario !important;
+}
+.nav-link{
+    font-family: $robotoMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+.bannerInicio{
+    background-image: url(../img/bannerInicio.png);
+    width: 100%;
+    height:400px;
+}
+.textoPrincipalWeb{
+    font-family: $rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $webH1;
+    line-height: 79px;
+    color: $colorBlanco;
+    text-shadow: 0px 4px 54px rgba(255, 255, 255, 0.6);
+    padding: 3rem 3rem 0rem 3rem;
+}
+.textoNormal{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $webBody;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.bannerTextos{
+    padding-left: 3rem;
+}
+.btn{
+    border-radius: 0px;
+    border: none;
+}
+.colorPrimario{
+    color: $colorPrimario;
+}
+.colorNegro{
+    color: $colorNegro;
+}
+.colorBlanco{
+    color: $colorBlanco;
+}
+a:hover{
+    color: $colorBlanco;
+}
+.colorPrimarioFondo{
+    background-color: $colorPrimrio;
+}
+.colorNegroFondo{
+    background-color: $colorNegro;
+}
+.btn-primary:hover{
+    background-color: $colorNegro;
+}
+.btn-secondary:hover{
+    background-color: $colorBlanco;
+    color: $colorNegro;
+}
+.footer{
+    padding: 1rem;
+}
+.colorSecundarioFondo{
+    background: $colorSecundario;
+}
+.webSubtitulo{
+    font-family: $rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $webSubtitulo;
+    line-height: 45px;
+}
+.elementoForm{
+    padding: 20px;
+}

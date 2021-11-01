@@ -1,20 +1,21 @@
 /*colores*/
-$colorPrimario: #FF3D00;
-$colorSecundario: #F2994A;
-$colorNegro: #131313;
-$colorBlanco: #fff;
+$colorPrimario:#FF3D00;
+$colorSecundario:#F2994A;
+$colorNegro:#131313;
+$colorBlanco:#fff;
 /*familias de fuentes*/
-$rubik: "font-family: Rubik Mono One";
-$robotoMono: font-family: Roboto Mono;
+$rubik: Rubik Mono One;
+$robotoMono: Roboto Mono;
 /*tamaños*/
     /*web*/
-    $webH1: font-size: 64px;
-    $webLogo: font-size: 36px;
-    $webBody: font-size: 24px;
-    $webMenores: font-size: 18px;
+    $webH1: 64px;
+    $webLogo: 36px;
+    $webSubtitulo: 28px;
+    $webBody: 24px;
+    $webMenores: 18px;
     /*mobile*/
-    $mobileH1: font-size: 24px;
-    $mobileLogo: font-size: 30px;
-    $mobileBody: font-size: 18px;
-    $mobileMenores: font-size: 10px;
-
+    $mobileH1: 24px;
+    $mobileLogo: 30px;
+    $mobileSubtitulo: 24px;
+    $mobileBody: 18px;
+    $mobileMenores: 10px;
